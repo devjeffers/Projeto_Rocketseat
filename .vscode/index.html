@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--nessa primeira linha está definindo um doc html5-->
+<html lang="pt-br">
+  <!--na segunda o elemento raiz, seguido de uma propriedade: lang que é o idioma, então vamos fazer a alteração-->
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!--chamado de nó, de filhos. O head é a tag responsável por ajustar configurações do nosso documento, não são visíveis para quem está acessando nossa página-->
+    <meta charset="UTF-8" />
+    <!--permite conjunto de caracteres na páigina-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--compatibilidade-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--parte visível aos usuários, faz adaptações na tela do dispositivo conforme o tipo. Tipo acesso mobile ou pc ou tablet, tambem temos o zoom-->
+    <title>DevLinks</title>
+    <!--somente esse é visível nesse caso em específico-->
+    <link rel="stylesheet" href="./style.css" />
+    <!--o link rel está indicando o relacionamento com arquivo do tipo stylesheet, local onde ele está, nesse caso está nessa propria pasta, para isso colocamos ./-->
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img
+          src="./assets/avatar.png"
+          alt="Foto de Jefferson Jimenez com óculos transparente e com pequena barba, usando camisa preta"
+        />
+        <p>@jeffers_christhopher</p>
+      </div>
+
+      <div id="switch" onclick="toggleMode()">
+      <button></button>
+      <span></span>
+
+      </div>
+       <ul>
+        <li>
+          <a href="#">Inscreva-se no NLW</a>
+        </li>
+        <li>
+          <a href="#">Baixar meu e-book</a>
+        </li>
+        <li>
+          <a href="https://github.com/kaisy2020" target="_blank"
+            >Veja meu portifólio</a
+          >
+        </li>
+        <li>
+          <a href="https://rocketseat.com.br/explorer" target="_blank"
+            >Conheça o Explorer</a
+          >
+        </li>
+      </ul>
+      <div id="social-links">
+        <a href="https://github.com/kaisy2020" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="https://www.instagram.com/presb_jefferson/" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UC-RReoDiKV55ieN4t_lkhuQ"
+          target="_blank"
+        >
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/jefferson-christhopher-jimenez-ribeiro-296894153"
+          target="_blank"
+        >
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+      <footer>
+        Feito com ♥ pela <a href="https://rocketseat.com.br">Rocketseat</a>
+      </footer>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+<!--para visualizar nossa pagina, o certo a fazer é clicar no index.html com o botão direito do mouse e selecionar a primeira opção: open withe live server-->
