@@ -20,7 +20,7 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src=".github/preview.png" width="100%">
+<img alt="projeto DevLinks" src=".github/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -36,7 +36,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O DevLinks é um agregador de links para usar como cartão online.
 
-- [Visite o projeto online](https://maykbrito.github.io/nlw-setup)
+- [Visite o projeto online](https://kaisy2020.github.io/Projeto_Rocketseat/)
 
 ## 🔖 Layout
 
