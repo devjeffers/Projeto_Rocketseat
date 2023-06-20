@@ -17,7 +17,7 @@
 
 .light {
   --text-color:black;
-  --bg-url: url(./assets/Sunny-light.jpg);
+  --bg-url: url(./assets/bg-brilhante.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.2);
