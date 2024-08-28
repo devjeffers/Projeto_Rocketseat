@@ -34,7 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O DevLinks é um agregador de links para usar como cartão online.
 
-- [Visite o projeto online](https://kaisy2020.github.io/Projeto_Rocketseat/)
+- [Visite o projeto online](https://devjeffers.github.io/Projeto_Rocketseat/)
 
 ## 🔖 Layout
 
